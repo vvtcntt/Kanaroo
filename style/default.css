@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { 
+    font: 14px arial;
+    margin: 0;
+    padding: 0;   
+	 
+	}
+ul,li{ padding:0px; margin:0px; outline:0px; vertical-align:baseline; border:0px}
+ul,li{ list-style:none}
+a{text-decoration:none}
+a:hover{color:#f94f01 !important  } 
+img { border:none}
+.Clear{ clear:both}
+@font-face { 
+font-family:UTMPenumbra; 
+src:url(../Font/UTMPenumbra.ttf)
+}
+header{width:100%; height:auto; float:left; margin:0; padding:0}
+#topHeader{width:100%; height:auto; float:left; margin:0px; padding:0px; background:#1e801c; padding:5px 0px}
+#topHeader #centerHeader{width:1250px; height:auto; margin:0px auto}
+#topHeader #centerHeader span.icon{font-size:17px}
+#topHeader #centerHeader span{display:inline-block; color:#FFF; margin:0px 5px 0px 0px; line-height:25px; font-size:14px}
+#topHeader #centerHeader span.hotline{  color:#f6ff00; font-size:17px} 
+#banner{width:100%; height:auto; float:left; background:#38ab35; margin:0; padding:10px 0px}
+#contentBanner{width:1250px; height:auto; margin:0px auto; padding-bottom:20px}
+#contentBanner p{text-align:center; margin:7px 0px}
+#contentBanner p span{ font-size:45px; font-weight:bold; text-align:center; text-transform:uppercase; color:#FFF; margin:0px; line-height:40px; display:inline-block }
+#contentBanner p img{display:inline-block;  ; float:inherit; }
+#contentBanner span.name{ font-size:30px; font-weight:normal; text-align:center; text-transform:uppercase; margin:15px 0px 7px 0px; color:#FFF; display:block}
+#contentBanner ul{width:100%; height:auto; float:left; margin:0px; text-align:center}
+#contentBanner ul li{display:inline-block}
+#contentBanner ul li a{font-size:14px; margin:5px; display:block; color:#d0ffcf;}
+ 
+  
