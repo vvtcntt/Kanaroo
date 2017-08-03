@@ -14,8 +14,8 @@ a:hover{color:#f94f01 !important  }
 img { border:none}
 .Clear{ clear:both}
 @font-face { 
-font-family:UTMPenumbra; 
-src:url(../Font/UTMPenumbra.ttf)
+font-family:CondensedBold; 
+src:url(../fonts/UTM-Swiss-CondensedBold.ttf)
 }
 header{width:100%; height:auto; float:left; margin:0; padding:0}
 #topHeader{width:100%; height:auto; float:left; margin:0px; padding:0px; background:#1e801c; padding:5px 0px}
@@ -23,7 +23,7 @@ header{width:100%; height:auto; float:left; margin:0; padding:0}
 #topHeader #centerHeader span.icon{font-size:17px}
 #topHeader #centerHeader span{display:inline-block; color:#FFF; margin:0px 5px 0px 0px; line-height:25px; font-size:14px}
 #topHeader #centerHeader span.hotline{  color:#f6ff00; font-size:17px} 
-#banner{width:100%; height:auto; float:left; background:#38ab35; margin:0; padding:10px 0px}
+#banner{width:100%; height:auto; float:left; background:#38ab35; margin:0; padding:0px 0px 10px 0px}
 #contentBanner{width:1250px; height:auto; margin:0px auto; padding-bottom:20px}
 #contentBanner p{text-align:center; margin:7px 0px}
 #contentBanner p span{ font-size:45px; font-weight:bold; text-align:center; text-transform:uppercase; color:#FFF; margin:0px; line-height:40px; display:inline-block }
@@ -35,14 +35,99 @@ header{width:100%; height:auto; float:left; margin:0; padding:0}
 section{width:100%; height:auto; float:left; margin:0px}
 #main{width:1250px; height:auto; margin:0px auto}
 #header{width:100%; height:auto; float:left; margin:0px; padding:15px 0px}
-#header #logo{width:22%; height:auto; float:left; margin:0px}
-#header #logo img{max-height:45px; margin:7px 0px 5px 0px; width:auto; display:block}
+#header #logo{width:18%; height:auto; float:left; margin:0px}
+#header #logo img{max-height:37px; margin:3px 0px 2px 0px; width:auto; display:block}
 #header #logo p{ color:#e35f15; font-size:14px; display:block; text-align:left; margin:3px 7px 3px 3px}
 #header #logo p span{color:#38ab35}  
-#header #search {width:57%; height:auto; float:left; margin:10px 0px 0px 0px}
-#header #search #boxSearch{width:90%; height:auto; margin:7px auto}
+#header #search {width:55%; height:auto; float:left; margin:7px 0px 0px 0px}
+#header #search #boxSearch{width:93%; height:auto; margin:7px auto}
 #header #search #boxSearch input{width:87%; height:38px; border:1px solid #c6c6c6; float:left; margin:0px; text-indent:20px}
-#header #search #boxSearch button{width:12%; height:37px; border:none; background:#f94f01; float:left; color:#FFF; text-transform:uppercase; font-size:14px}
-#header #support {width:21%; float:left; height:auto; margin:0px}
-#header #support #order{width:80px; float:left; margin:0px; height:auto}
+#header #search #boxSearch button{width:12%; height:38px; border:none; background:#f94f01; float:left; color:#FFF; text-transform:uppercase; font-size:14px}
+#header #support {width:27%; float:left; height:auto; margin:0px}
+#header #support #order{width:60px; float:left; margin:3px 0px 0px 0px; height:auto; position:relative}
 #header #support #order i{font-size:40px; color:#f94f01; float:left; margin:10px}
+#header #support #order .countOrder{ position:absolute; background:#38ab35; color:#FFF; right:5px; top:5px; padding:3px; border-radius:50%; width:15px; text-align:center}
+#header #support #hotline{width:230px; height:40px; float:right; margin:10px 0px; background:#fe0000; border:1px solid #fe0000; border-top-right-radius:7px }
+#header #support .centerHotline{width:0px;
+  height:0px;
+     border-bottom: 41px solid transparent;
+    border-top: 0px solid transparent;
+    border-left: 19px solid #fff;; float:left}
+#header #support #hotline .leftHotline{width:35%; height:100%; background:#FFF; margin:0px; float:left}
+#header #support #hotline .leftHotline span{font-size:11px;text-transform:uppercase;display:block; margin:5px; text-align:center; font-weight:bold; line-height:15px }
+#header #support #hotline .rightHotline{width:56%; float:left; margin:0px}
+#header #support #hotline .rightHotline span{ font-family:CondensedBold; margin:5px; text-align:right; display:block; color:#FFF; font-size:21px;}
+#nvarHeader{width:100%; height:auto; float:left; margin:0px 0px 0px 0px}
+#nvarHeader #sidebar{width:20%; height:auto; float:left; margin:0px; position:relative}
+#nvarHeader #sidebar #nvarSidebar{ width:100%; height:50px; float:left; margin:0px; background:#f94f01}
+#nvarHeader #sidebar #nvarSidebar .name{    color: #fff;
+    line-height: 50px;
+    display: block;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    font-size: 16px;
+    font-weight: 400;font-family:"Open Sans",sans-serif!important; width:100%; padding-left:10px; text-transform:uppercase; float:left
+}
+#nvarHeader #sidebar #nvarSidebar .name i:first-child{margin-right:5px}
+#nvarHeader #sidebar #nvarSidebar .name i:last-child { margin:0px 5px; text-align:right}
+#menuBar{width:100%; height:auto; float:left; position:absolute; left:0px; top:50px; border:1px solid #eaeaea; border-top:none; border-right:none}
+#menuBar .ul1{  height:auto; float:left; margin:0px; padding-top:15px; padding-bottom:22px; position:relative; }
+#menuBar .ul1:before{ height:100%; width:0px; right:1px; border-right:1px solid #eaeaea; position:absolute; content:''; top:0px}
+#menuBar .ul1 .li1{width:100%; height:auto; float:left; margin: 4px 0px}
+#menuBar .ul1 .li1 a{color:#333; margin:0px; display:block; font-size:15px; line-height:25px }
+#menuBar .ul1 .li1 a img{max-width:45px; height:auto; float:left; margin-right:10px; margin-left:8px}
+#menuBar .ul1 .li1 a span{ margin:5px 0px} 
+#menuBar .ul1 .li1 a i{ float:right; margin-top:5px; margin-right:8px}
+#menuBar .ul1 .li1 .menuChild{width:720px; height:450px; float:left; margin:0px; border:1px solid #eaeaea; position:absolute; top:5px; left:99%; padding:5px; display:none; background:rgba(255,255,255,1)}
+#menuBar .ul1 .li1:hover .menuChild{display:block}
+#menuBar .ul1 .li1 .menuChild ul{width:100%; height:auto; float:left; margin:0px}
+#menuBar .ul1 .li1 .menuChild ul li{width: 29%; margin:7px ; float:left; position:relative; overflow:hidden}
+#menuBar .ul1 .li1 .menuChild ul li a img{ ;border:1px solid #eaeaea; padding:5px; float:none !important;  margin:0px auto 7px auto ; max-width:90% !important; max-height:150px; display:block}
+#menuBar .ul1 .li1 .menuChild ul li .nameMenu{ margin:5px; display:block; color:#333; text-align:center !important; float:none  } 
+#menuBar .ul1 .li1 .menuChild ul li:hover a img{ border:1px solid #cecece}
+#menuBar .ul1 .li1 .menuChild ul li:hover a{color:#1e801c}
+
+
+#nvarHeader #services{width:78%; height:auto; float:left; margin:0px 0px 0px 2%}
+#nvarHeader #services .tearService{width:22%; height:43px;  float:left; margin:0px 1.5%}
+#nvarHeader #services .tearService .left{ width:20%; height:100%;  float:left}
+#nvarHeader #services .tearService .contentTearServer{width:75%; float:left; margin:0px 0px 0px 5%}
+#nvarHeader #services .tearService .contentTearServer .sp1{ font-size:14px; color:#3e3e3e; margin:0px 5px 0px 5px; display:block; font-weight:bold}
+#nvarHeader #services .tearService .contentTearServer .sp2{ font-size:14px; color:#3e3e3e; margin:5px 5px 0px 5px; display:block }
+#nvarHeader #services .tearService .transport{background:url(../icon/fullIcon.png) no-repeat -76px  1px}
+#nvarHeader #services .tearService .setup{background:url(../icon/fullIcon.png) no-repeat -214px  1px}
+#nvarHeader #services .tearService .pay{background:url(../icon/fullIcon.png) no-repeat -168px  1px}
+#nvarHeader #services .tearService .guarantee{background:url(../icon/fullIcon.png) no-repeat -122px  1px}
+
+#slideAdw{width:100%; height:auto; float:left; margin:0px}
+#slideAdw #slide{width:58%; height:330px; float:left; margin:5px 0px 0px 22%}
+#slideAdw img{width:100%; height:auto; float:left; margin:0px; max-height:330px}
+#slideAdw #adwHeader{width:18%; height:auto; float:left; margin:5px 0px 0px 2%}
+#slideAdw #adwHeader img{width:100%; height:auto; float:left; margin:0px 0px 10px 0px}
+#slideAdw #adwHeader a:last-child img{margin-bottom:0px}
+
+#saleCenter{width:100%; height:auto; float:left; margin:10px 0px}
+#saleCenter img{ height:auto; width:100%; float:left; margin:0px}
+
+#productHot{width:100%; height:auto; float:left; margin:10px 0px}
+#sidebarProductHot{width:100%; height:auto; float:left; margin:0px; border-bottom:1px solid #f0f0f0; padding-bottom:7px }
+#sidebarProductHot p{font-size:20px;  line-height:30px; margin:0px; color:#333; float:left}
+#sidebarProductHot p span{ color:#38ab35;font-family:"Open Sans",sans-serif!important;font-weight:bold;}
+#sidebarProductHot a{ float:right; margin:0px 5px; line-height:30px; color:#3e3e3e; display:inline-block}
+#contentProductHot{width:100%; height:auto; float:left; margin:10px 0px}
+.owl-carousel.owl-drag .owl-item{ width:25%; height:auto; float:left; border:1px solid #f0f0f0}
+.owl-carousel.owl-drag .owl-item .img{ width:100%; height:210px; float:left; margin:0px 0px 7px 0px; clear:both}
+.owl-carousel.owl-drag .owl-item .img a img{max-height:200px; max-width:97%; margin:5px auto; display:block}
+.owl-carousel.owl-drag .owl-item .name{ color:#3e3e3e; margin:5px; display:block; text-align:center; clear:both; font-size:15px}
+.owl-carousel.owl-drag .owl-item .boxItem{width:100%; height:auto; float:left; margin:5px 0px}
+.owl-carousel.owl-drag .owl-item .boxItem .boxPrice{width:50%; height:auto; float:left; margin:0px}
+.owl-carousel.owl-drag .owl-item .boxItem .boxPrice .priceSale{color: #eb111a;    font-size: 22px;    font-weight: bold; display:block; margin:5px 5px 0px 7px}
+.owl-carousel.owl-drag .owl-item .boxItem .boxPrice .price{color: #929292;
+    font-size: 16px;
+    padding-bottom: 5px;
+    text-decoration: line-through;
+	display:block; margin:0px 5px 5px 7px
+}
+.owl-carousel.owl-drag .owl-item .boxItem .boxSale{width:50%; height:auto; float:left; margin:0px}
+.owl-carousel.owl-drag .owl-item .boxItem .boxSale a{ width:39px; height:40px; text-align:right; display:block; margin:5px 7px 5px 5px; background:url(../icon/qua.png); float:right}
+.owl-carousel.owl-drag .owl-item{ margin-right:17px !important }
