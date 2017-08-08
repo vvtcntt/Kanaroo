@@ -1,13 +1,13 @@
 // JavaScript Document
  $("document").ready(function($){
-    var nav = $('#SideBar');
+    var nav = $('#header');
 
     $(window).scroll(function () {
         if ($(this).scrollTop() > 200) {
-			$("#SideBar").css("display", "block");
+			$("#header").css("display", "block");
             nav.addClass("f-nav");
         } else {
-			$("#SideBar").css("display", "none");
+			$("#header").css("display", "block");
             nav.removeClass("f-nav");
         }
     });
