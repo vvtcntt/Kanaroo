@@ -213,25 +213,25 @@ border-left: 2px solid #f94f01;; float:left
 .contentProducts .adwProducts{width:20%; height:auto; float:left; margin:0px}
 .contentProducts .adwProducts img{width:100%; height:auto; float:left; margin:0px}
 .listProducts{width:79%; height:auto; float:right; margin:0px 0px 0px 0px;border-right:1px solid #ececec; border-bottom:1px solid #ececec;}
-.listProducts .tear{width:20%; height:auto; float:left; margin:0px ; position:relative}
-.listProducts .tear .contentTear{ width:100%; height:100%; border-top:1px solid #ececec;border-left:1px solid #ececec; position:relative; clear:both; float:left}
-.listProducts .tear .img{width:100%; height:170px; float:left; margin:0px 0px 10px 0px}
-.listProducts .tear .img img{max-width:100%; max-height:100%; margin:5px auto 5px auto; display:block}
-.listProducts .tear .name{font-size:14px; color:#3e3e3e; display:block; clear:both; margin:5px; text-align:center}
+.tear{width:20%; height:auto; float:left; margin:0px ; position:relative}
+.tear .contentTear{ width:100%; height:100%; border-top:1px solid #ececec;border-left:1px solid #ececec; position:relative; clear:both; float:left}
+.tear .img{width:100%; height:170px; float:left; margin:0px 0px 10px 0px}
+.tear .img img{max-width:100%; max-height:100%; margin:5px auto 5px auto; display:block}
+.tear .name{font-size:14px; color:#3e3e3e; display:block; clear:both; margin:5px; text-align:center}
 
-.listProducts .tear .boxItem{width:100%; height:auto; float:left; margin:5px 0px; clear:both}
-.listProducts .tear .boxPrice{width:50%; height:auto; float:left; margin:0px}
-.listProducts .tear .boxPrice .priceSale{color: #eb111a;    font-size: 17px;    font-weight: bold; display:block; margin:5px 5px 0px 7px}
-.listProducts .tear .boxPrice .price{color: #929292;
+.tear .boxItem{width:100%; height:auto; float:left; margin:5px 0px; clear:both}
+.tear .boxPrice{width:50%; height:auto; float:left; margin:0px}
+.tear .boxPrice .priceSale{color: #eb111a;    font-size: 17px;    font-weight: bold; display:block; margin:5px 5px 0px 7px}
+.tear .boxPrice .price{color: #929292;
     font-size: 14px;
     padding-bottom: 5px;
     text-decoration: line-through;
 	display:block; margin:0px 5px 5px 7px
 }
-.listProducts .tear.boxSale{width:50%; height:auto; float:left; margin:0px}
-.listProducts .tear .boxSale a{ width:28px; height:29px; text-align:right; display:block; margin:5px 7px 5px 5px; background:url(../icon/qua1.png); float:right}
-.listProducts .tear .sale{position:absolute; width:40px; font-size:12px; height:20px; right:0px; top:10px; background:#f05764; color:#FFF; line-height:20px; text-align:center; border-top-left-radius:5px}
-.listProducts .tear:hover{
+.tear.boxSale{width:50%; height:auto; float:left; margin:0px}
+.tear .boxSale a{ width:28px; height:29px; text-align:right; display:block; margin:5px 7px 5px 5px; background:url(../icon/qua1.png); float:right}
+.tear .sale{position:absolute; width:40px; font-size:12px; height:20px; right:0px; top:10px; background:#f05764; color:#FFF; line-height:20px; text-align:center; border-top-left-radius:5px}
+.tear:hover{
 	box-shadow: 2px 1px 8px rgba(0,0,0,.2);
     -o-transition: box-shadow .3s ease-out;
     -moz-transition: box-shadow .3s ease-out;

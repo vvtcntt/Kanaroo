@@ -33,14 +33,14 @@
 	.LeftFloor .Leftfloor1{display:none}
 	.contentProducts .adwProducts{display:none}
 	.listProducts{width:100%; height:auto; float:left; margin:5px 0px; border:none}
-	.listProducts .tear{width:50%}
+	.tear{width:50% !important}
 	#newsHomes .tearNewsHomes{width:100%; height:auto; float:left; margin:5px 0px}
 	.tearVideoHomes{width:100%; height:auto; float:left; margin:5px 0px}
 	#Content_Supports{width:100%}
 	#support_1{width:100%; margin:5px 0px}
 	.support_2{width:50%; height:auto; float:left; margin:0px}
 	.support_3{display:none}
-	.Times{width:100%}
+	.Times{width:98%; float:none; margin:10px auto}
 	.Times .time1{font-size:14px}
 	.Times .time1 span{font-size:18px}
 	.Times .Date1{font-size:14px}

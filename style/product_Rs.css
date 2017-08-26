@@ -14,4 +14,8 @@
 	#contentDetailProduct .half{width:100%; padding:0px}
 	#submitComment input{width:99%; margin:5px 0px}
 	#listImageProduct a img{ height:80px}
+	#headshort h1{width:auto; padding:0px}
+	#contentHeadShort{display:none}
+	#product{padding-top:0px}
+	#root{display:none}
 }
