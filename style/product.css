@@ -160,7 +160,7 @@ ul.ulInfo li span{  margin:0px 7px; color:#000;  }
 #listComment .tearComment .nameComment{font-weight:bold; margin:5px 0px 10px 0px; display:block}
 #listComment .tearComment:nth-child(2n){ background:#fbfbfb}
 #listComment .tearComment .boxLike{width:100%; height:auto; float:left; margin:7px 0px}
-#listComment .tearComment .boxLike a{ color:#288ad9; display:inline; margin:5px}
+#listComment .tearComment .boxLike a{ color:#288ad9; display:inline; margin:5px 10px 5px 0px; font-size:12px}
 
 
 /*Product List */
