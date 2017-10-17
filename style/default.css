@@ -526,7 +526,7 @@ display: block; margin:0px 2px 2px 9px; font-weight:bold;    line-height: 17px;}
 #menuMobile a i{margin-right:10px;}
 
 /*Danh sách chi nhánh*/
-#infomation{width:100%; height:auto; float:left; margin:0px 0px; padding:5px 0px}
+#infomation{width:100%; height:auto; float:left; margin:0px 0px; padding:5px 0px; }
 #infomation h5{font-size:25px; color:#333;   margin:5px; text-align:center; text-transform:uppercase; font-weight:bold; font-family:"Open Sans",sans-serif!important}
 #infomation .if{color:#3e3e3e;   font-size:20px; text-align:center; margin:5px}
 #infomation #contentInfo{width:100%; height:auto; float:left; margin:10px 0px}
